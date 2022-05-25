@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+</head>
+
+<body>
+    <script>
+        'use strict';
+        /* 2. Чему будут равны переменные x и a в примере ниже? Написать почему так произошло
+        (описать последовательность действий). */
+        let a = 2; debugger;
+        let x = 1 + (a *= 2);
+        alert(x);
+        // (a *= 2) это как a = a * 2 - сначала вполнится эта опреция из-за приоритета, поэтому будет 4, а 4+1 = 5
+    </script>
+</body>
+
+</html>
